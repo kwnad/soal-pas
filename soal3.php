@@ -7,7 +7,23 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Soal 3</title>
 </head>
-<body>
+<body style="background-color: lightsteelblue">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link" href="soal1.php">Soal 1</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="soal2.php">Soal 2</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="soal3.php">Soal 3</a>
+            </li>
+        </div>
+    </div>
+    </nav>
     <center><h1 style="padding: 10px;">Form Pengulangan</h1></center>
     <div class="row">
         <div class="col-2">
@@ -74,7 +90,6 @@
         }
     }
     ?>
-
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

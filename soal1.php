@@ -7,7 +7,23 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Soal 1</title>
 </head>
-<body>
+<body style="background-color: lightsteelblue">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="soal1.php">Soal 1</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="soal2.php">Soal 2</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="soal3.php">Soal 3</a>
+            </li>
+        </div>
+    </div>
+    </nav>
     <div class="card border-dark mb-3 container" style="width: 40rem; margin-top:50px;">
         <div class="card-body">
             <center><h1>Syarat Masuk Ke MIKO MALL</h1></center>
@@ -52,6 +68,13 @@
 
         </div>
     </div>
+    <footer class="bg-light text-center text-lg-start" style="margin-top:139px">
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: #3b5998;">
+        <p class="text-white">© 2021 Copyright</p>
+    </div>
+    <!-- Copyright -->
+    </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
